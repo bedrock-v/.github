@@ -1,46 +1,71 @@
 # bedrock-v
 
-Open-source Minecraft: Bedrock Edition projects related to V. Feel free to join our Discord community!
+bedrock-v is an open-source organization building server software and
+reusable libraries for Minecraft: Bedrock Edition in the V programming language.
+
+The projects range from protocol and networking libraries to server software. Most of the ecosystem is still under active
+development, so contributions, testing and protocol research are welcome.
 
 <p align="center">
-    <a href="https://discord.gg/cM9BQsAk9D" target="_blank">
-        <img src="https://discord.com/api/guilds/1520807994999439550/widget.png?style=banner2" alt="Discord Banner"/>
+    <a href="https://discord.gg/cM9BQsAk9D">
+        <img src="https://discord.com/api/guilds/1520807994999439550/widget.png?style=banner2" alt="bedrock-v Discord"/>
     </a>
 </p>
 
-# Contributing to bedrock-v
+---
 
-Thanks for your interest in contributing to bedrock-v.
+## Projects
 
-bedrock-v projects are currently in early development, so APIs and internal structure may change frequently. Contributions are welcome but larger changes should be discussed before implementation.
+### Vedrock
 
-## Ways to contribute
+Minecraft: Bedrock Edition server software written in V.
 
-You can help by:
+Vedrock is the main server project in the organization. It brings together
+the protocol, networking, world and gameplay libraries developed across
+bedrock-v.
 
-* Reporting bugs
-* Suggesting improvements
-* Improving documentation
-* Testing the projects
-* Opening pull requests
+### Protocol
 
-## Pull requests
+**protocol** — Minecraft: Bedrock Edition protocol implementation for V.
 
-Please keep pull requests focused and easy to review.
+Packet definitions, encoding and decoding and the protocol types used by
+Vedrock and other Bedrock projects.
 
-Before opening a pull request:
+### Networking
 
-1. Make sure the project builds, or note the issue you encountered.
-2. Keep unrelated changes out of the same pull request.
-3. Explain what changed and why.
-4. Reference related issues when applicable.
+**nethernet** — NetherNet transport for modern Minecraft: Bedrock Edition.
 
-For larger changes, please open an issue first so the design can be discussed.
+**webrtc-v** — WebRTC implementation used by NetherNet.
 
-## Code style
+**raknet** — RakNet transport for Minecraft: Bedrock Edition.
 
-Try to follow the existing project style. Keep code simple and readable.
+### Data & world formats
 
-## Code of Conduct
+**nbt** — Named Binary Tag encoding and decoding for V.
 
-By participating in bedrock-v projects, you are expected to follow our Code of Conduct.
+Other supporting libraries are developed as the ecosystem grows.
+
+---
+
+## Development
+
+bedrock-v is still evolving. APIs may change while the projects mature and
+Minecraft itself continues to change.
+
+We try to keep projects small and reusable rather than putting the entire
+Bedrock stack inside the server. Libraries should be useful independently
+where that makes sense.
+
+If you want to contribute, bug reports, testing, documentation, protocol
+research and pull requests are all useful.
+
+See the [contribution guidelines](https://github.com/bedrock-v/.github/blob/master/profile/CONTRIBUTING.md) before starting larger changes.
+
+---
+
+## Community
+
+Development and project discussion happens on GitHub and Discord.
+
+If you're working with Minecraft Bedrock in V, experimenting with the
+protocol, or just interested in the projects, you're welcome to join.

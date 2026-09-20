@@ -172,4 +172,4 @@ reviewed and verified in the same way as manually written work.
 ## Code of Conduct
 
 By participating in bedrock-v projects, you agree to follow the organization's
-[Code of Conduct](https://github.com/bedrock-v/.github/blob/master/profile/CODE_OF_CONDUCT.md).
+[Code of Conduct](https://github.com/bedrock-v/.github/blob/master/profile/CODE_OF_CONDUCT.MD).
